@@ -14,7 +14,7 @@ El proyecto sigue la estructura estándar de Maven, separando el código de la a
 
 - .github/workflows/ci.yml: 
     - Define el pipeline de Integracion Continua, donde se: 
-        - Configura ejecución con Java 11. 
+        - Configura ejecución con Java 17. 
         - Ejecuta el comando mvn clean package. Este comando compila el código y ejecuta automáticamente las pruebas unitarias. 
         - Sube los reportes generados por Surefire (en target/surefire-reports) como artefactos del build para su posterior revisión
 
